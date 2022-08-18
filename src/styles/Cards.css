@@ -1,0 +1,21 @@
+.outer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 1rem;
+  margin: 1rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 1rem;
+  margin: 1rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.img {
+  width: calc(100% - 6rem);
+}

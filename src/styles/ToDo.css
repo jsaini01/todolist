@@ -1,0 +1,71 @@
+.body {
+  background-color: slategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 1rem 0;
+  height: calc(100% - 50vh);
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 27px -5px black;
+}
+
+.container h1 {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  box-shadow: 5px 5px 10px -5px black;
+}
+
+.container input {
+  margin: 3rem 1rem 2rem 2rem;
+  border: none;
+  border-bottom: 3px solid blueviolet;
+  text-align: center;
+  font-size: 1.1rem;
+  width: 150px;
+  outline: none;
+}
+
+.container button {
+  background-color: blueviolet;
+  padding: 0.2px 0.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  margin-right: 2rem;
+  border: none;
+}
+
+.container button:hover {
+  background-color: green;
+}
+
+.container ol {
+  color: rgba(137, 43, 226, 0.809);
+  font-size: 1.1rem;
+
+  list-style: none;
+}
+
+.ToDoFunc {
+  display: flex;
+  padding: 0.3rem;
+}
+
+.fa-times {
+  background-color: blueviolet;
+  font-size: 1vw;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem 0.4rem;
+  margin: 0 0.5rem 0 1rem;
+}
+
+.fa-times:hover {
+  background-color: green;
+}

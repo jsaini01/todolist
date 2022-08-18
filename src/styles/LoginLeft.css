@@ -1,0 +1,116 @@
+.outerBox {
+  display: grid;
+  grid-template-columns: 60% 35%;
+}
+
+.leftBox img {
+  width: calc(100% - 100px);
+}
+
+.rightBox {
+  padding: 3vw 2vw;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: inline-flex;
+
+  align-items: center;
+}
+.logo img {
+  width: calc(100% - 70%);
+}
+
+.rightBox h3 {
+  font-size: clamp(1.2rem, 2.5vw, 3rem);
+  margin: 2vw 0 0 0;
+}
+
+.user {
+  line-height: 4vw;
+  color: #272727;
+  font-size: clamp(0.8rem, 1.3vw, 2rem);
+}
+.user a {
+  color: #1d2e88;
+  font-weight: 600;
+  font-size: clamp(0.7rem, 1.2vw, 1.5rem);
+}
+
+form {
+  /* padding: 0.5rem; */
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 3vh;
+  width: 100%;
+}
+
+.allBtn {
+  border: 1px solid rgba(39, 39, 39, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 1.1rem);
+  padding: 1.2vw;
+  box-sizing: border-box;
+}
+.allBtn input {
+  outline: none;
+  border: none;
+  padding: 0.3rem;
+  width: 90%;
+  font-size: clamp(0.7rem, 1.1vw, 1.5rem);
+}
+
+.allBtn input::placeholder {
+  color: rgba(39, 39, 39, 0.4);
+  font-size: clamp(0.7rem, 1.1vw, 1.5rem);
+}
+
+.forgot {
+  color: #1d2e88;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.allBtn2 {
+  border: 1px solid rgba(39, 39, 39, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 1.1rem);
+  background-color: #1d2e88;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+}
+
+.or {
+  text-align: center;
+  font-weight: 600;
+  font-size: clamp(0.7rem, 1.8vw, 1.5rem);
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: clamp(0.7rem, 1.22vw, 1.5rem);
+  /* width: calc(100% - 1.1rem); */
+  padding: clamp(0.5rem, 2.3vh, 3rem);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.allBtn3 {
+  border: 1px solid rgba(39, 39, 39, 0.2);
+  border-radius: 10px;
+  width: calc(100% - 1.1rem);
+  background-color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.8rem;
+  box-sizing: border-box;
+}
+
+.allBtn3 img {
+  width: clamp(8rem, 20vw, 15rem);
+}

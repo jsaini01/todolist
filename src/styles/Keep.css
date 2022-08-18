@@ -1,0 +1,102 @@
+/* header */
+.header {
+  background-color: rgb(255, 204, 0);
+  display: flex;
+  padding: 1vh 2vw;
+  color: white;
+  align-items: center;
+}
+
+.icon {
+  font-size: 4vw;
+}
+
+.h1 {
+  font-size: 2vw;
+}
+
+/* context */
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.allText {
+  padding: 1vw;
+  width: calc(100% - 80%);
+  box-shadow: 5px 5px 20px -2px black;
+  border-radius: 20px;
+}
+
+.allText form {
+  display: flex;
+  flex-direction: column;
+}
+
+.allText form input {
+  outline: none;
+  border: none;
+  padding: 1.5vh 0.5vw 1.5vh 0.5vw;
+  font-size: 1.3vw;
+}
+
+.allText form textarea {
+  outline: none;
+  border: none;
+  padding: 1.5vh 0.5vw 1.5vh 0.5vw;
+  height: 10vh;
+}
+
+.fa-plus {
+  font-size: 1.2vw;
+  background-color: yellow;
+  padding: 0.8vw;
+  border-radius: 50%;
+  float: right;
+}
+
+.fa-plus:hover {
+  background-color: green;
+  color: white;
+}
+
+/* allcards */
+.data {
+  display: flex;
+
+  margin: 4vh 2vh;
+}
+
+.cards {
+  padding: 1vw;
+  width: calc(100% - 20%);
+  box-shadow: 5px 5px 20px -2px black;
+  border-radius: 20px;
+}
+.fa-trash {
+  font-size: 1.2vw;
+  background-color: yellow;
+  padding: 0.8vw;
+  border-radius: 50%;
+  float: right;
+}
+
+.fa-trash:hover {
+  background-color: green;
+  color: white;
+}
+
+.center {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 10vh 2vh;
+}
+/* footer */
+.copyright {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 10px;
+}
